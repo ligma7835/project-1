@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(60deg,green,rgb(4, 37, 26),rgb(218, 67, 67));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div{
+    position: absolute;
+    bottom: 20px;
+    background: rgb(red, green, blue);
+    padding: 20px;
+    font-size: 18px;
+}
+
+input{
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: burlywood;
+    border: none;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
